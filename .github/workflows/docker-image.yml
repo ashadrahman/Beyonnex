@@ -17,4 +17,4 @@ jobs:
     - name: Build and test Docker image
       run: |
         docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-        docker run my-image-name
+        docker run my-image-name:$(date +%s)
