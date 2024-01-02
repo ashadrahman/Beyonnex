@@ -19,8 +19,6 @@ def click_pay_with_card(browser):
 def fill_cart(browser):
     '''
         This function fills the card details into the form.
-        Make sure the e-mail ID is different for all time,
-        No maters whether it is valid or invalid.
     '''
     browser.switch_to.frame("stripe_checkout_app")
     browser.find_element(by = By.XPATH, value = ("//input[@type = 'email']")).send_keys("sample@gmail.com")

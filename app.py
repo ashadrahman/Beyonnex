@@ -9,7 +9,7 @@ from libs.payment_module import goto_cart, click_pay_with_card, fill_cart, pay
 def summer_shopping():
     '''
         This function takes browser reference as an Argument and
-        adds the cheep priced SPF-50 and SPF-30 products to cart.
+        adds the cheap priced SPF-50 and SPF-30 products to cart.
     '''
 
     click_buy_sunscreens_button(browser)
@@ -22,7 +22,7 @@ def summer_shopping():
 def winter_shopping():
     '''
         This function takes browser reference as an Argument and
-        adds the cheep priced Aloe and Almond products to cart.
+        adds the cheap priced Aloe and Almond products to cart.
     '''
 
     click_buy_moisturizers_button(browser)
