@@ -1,4 +1,4 @@
-# Beyonnex Tech Challenge
+# Beyonnex QA Tech Challenge
 
 <hr>
 This project is to automate the complete shopping of the web app 'Weather Shopper' (http://weathershopper.pythonanywhere.com/) from opening the window to the payment with the help of selenium and python and Docker. It runs in headless mode, but it can be run in headful mode too by removing the headless option in the driver code.
@@ -13,14 +13,9 @@ This project is to automate the complete shopping of the web app 'Weather Shoppe
    <li> Then it will go to stripe payment and fills dummy/test account details and clicks over pay after which it will show a page showing payment successful</li>
  </ul>
  <br><strong> Tips to use:</strong>
+ <br>Install python3 into your system<br>
 <br>Install selenium into your system<br>
     <pre>pip3 install selenium</pre>
-provide executable permission to driver_installer
-  <pre>chmod -x driver_installer.sh</pre>
-   execute the driver_installer
-   <pre>./driver_installer.sh</pre>
-If you have firefox browser then it's ok, if you have any other browser like chrome just change the line "browser = webdriver.Firefox()" in app.py with your browser line, like for chrome its:
-<pre>"browser = webdriver.Chrome()"</pre>
 execute the app.py
 <pre>python3 app.py</pre>
 <br><strong>Using Docker to run:</strong>
