@@ -27,4 +27,4 @@ jobs:
     - name: Check out the code
       uses: actions/checkout@v3
     - name: Run tests
-      run: docker run -it my-image-name:$(date +%s)
+      run: docker run my-image-name:$(date +%s)
