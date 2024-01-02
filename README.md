@@ -1,7 +1,7 @@
 # Beyonnex Tech Challenge
 
 <hr>
-This project is to automate the complete shopping of the web app 'Weather Shopper' (http://weathershopper.pythonanywhere.com/) from opening the window to the payment with the help of selenium and python and Docker. It runs in headless mode, but it can be run gui mode too by removing the headless option in the driver code.
+This project is to automate the complete shopping of the web app 'Weather Shopper' (http://weathershopper.pythonanywhere.com/) from opening the window to the payment with the help of selenium and python and Docker. It runs in headless mode, but it can be run in headful mode too by removing the headless option in the driver code.
 
 <br><strong>Key points according to which this project works</strong>
 <ul>
@@ -23,8 +23,8 @@ If you have firefox browser then it's ok, if you have any other browser like chr
 execute the app.py
 <pre>python3 app.py</pre>
 <br><strong>Using Docker to run:</strong>
-<br>Goto to the installed directory and run this command:<br>
-  <pre>docker build -t <anybuildname> .</pre>
-  <pre>docker run -it <anybuildname> </pre>
+<br>Install docker on your local machine. Then goto to the project folder location and run this command:<br>
+  <pre>docker build -t BUILD_NAME .</pre>
+  <pre>docker run BUILD_NAME </pre>
  <hr><hr>
 
